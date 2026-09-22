@@ -1,7 +1,7 @@
 /*
   ============================================================
   Pelvic Pressure Monitor  (v3, simple mode: only 3 keys)
-  Companion for Arduino sketch: planB_fsr402.ino (v2)
+  Companion for Arduino sketch: filling_fsr402.ino (v2)
   Demo model only, NOT a medical device.
   ============================================================
 
@@ -10,7 +10,7 @@
    2. Create a folder named exactly:  PelvicPressureMonitor
       Put this file inside, named:    PelvicPressureMonitor.pde
       (Processing requires folder name == main .pde name)
-   3. Flash planB_fsr402.ino to the Uno, then CLOSE the Arduino
+   3. Flash filling_fsr402.ino to the Uno, then CLOSE the Arduino
       Serial Monitor / Serial Plotter. Only one program can hold
       a serial port at a time.
    4. Open this file in Processing and press Run.
@@ -497,7 +497,7 @@ void drawPlot(float tMin, float tMax) {
     fill(150, 158, 166);
     textFont(fUI);
     textAlign(CENTER, CENTER);
-    text("Waiting for data...  (board flashed with planB_fsr402.ino? Serial Monitor closed?)",
+    text("Waiting for data...  (board flashed with filling_fsr402.ino? Serial Monitor closed?)",
          (x0 + x1) / 2, (y0 + y1) / 2);
   }
 }
